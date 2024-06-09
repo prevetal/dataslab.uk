@@ -29,8 +29,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 		<!-- Connecting style files -->
-		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
-		<link rel="stylesheet" href="css/swiper.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
 
 		<link rel="stylesheet" href="css/response_1159.css" media="print, (max-width: 1159px)" async>
@@ -68,18 +66,27 @@
 						</div>
 
 						<div class="image">
-							<img src="images/first_section_img.jpg" alt="" loading="lazy">
+							<picture>
+								<source srcset="images/first_section_img.webp" type="image/webp">
+								<img src="images/first_section_img.jpg" alt="" loading="lazy">
+							</picture>
 						</div>
 					</div>
 
-					<img src="images/bg_first_section.jpg" alt="" class="bg" loading="lazy">
+					<picture class="bg">
+						<source srcset="images/bg_first_section.webp" type="image/webp">
+						<img src="images/bg_first_section.jpg" alt="" loading="lazy">
+					</picture>
 				</section>
 
 
 				<section class="about_info block">
 					<div class="cont row">
 						<div class="image">
-							<img src="images/about_info_img.jpg" alt="" loading="lazy">
+							<picture>
+								<source srcset="images/about_info_img.webp" type="image/webp">
+								<img src="images/about_info_img.jpg" alt="" loading="lazy">
+							</picture>
 						</div>
 
 						<div class="data">
@@ -115,7 +122,10 @@
 									<a href="/">Learn more</a>
 								</div>
 
-								<img src="images/bg_service.jpg" alt="" class="bg" loading="lazy">
+								<picture class="bg">
+									<source srcset="images/bg_service.webp" type="image/webp">
+									<img src="images/bg_service.jpg" alt="" loading="lazy">
+								</picture>
 							</div>
 
 							<div class="service">
@@ -129,7 +139,10 @@
 									<a href="/">Learn more</a>
 								</div>
 
-								<img src="images/bg_service.jpg" alt="" class="bg" loading="lazy">
+								<picture class="bg">
+									<source srcset="images/bg_service.webp" type="image/webp">
+									<img src="images/bg_service.jpg" alt="" loading="lazy">
+								</picture>
 							</div>
 						</div>
 					</div>
@@ -225,7 +238,10 @@
 								</div>
 							</div>
 
-							<img src="images/bg_benefits.jpg" alt="" class="bg" loading="lazy">
+							<picture class="bg">
+								<source srcset="images/bg_benefits.webp" type="image/webp">
+								<img src="images/bg_benefits.jpg" alt="" loading="lazy">
+							</picture>
 						</div>
 					</div>
 				</section>
@@ -329,7 +345,10 @@
 					</div>
 				</div>
 
-				<img src="images/bg_footer.jpg" alt="" class="bg" loading="lazy">
+				<picture class="bg">
+					<source srcset="images/bg_footer.webp" type="image/webp">
+					<img src="images/bg_footer.jpg" alt="" loading="lazy">
+				</picture>
 			</footer>
 		</div>
 
@@ -337,7 +356,6 @@
 		<!-- Connecting javascript files -->
 		<script src="js/jquery-3.6.3.min.js"></script>
 		<script src="js/functions.js"></script>
-		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>

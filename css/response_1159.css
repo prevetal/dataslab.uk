@@ -1,5 +1,5 @@
 @media print,
-(max-width: 1279px)
+(max-width: 1159px)
 {
     /*-------------------
         Global styles
@@ -8,16 +8,6 @@
     {
         width: 5px;
         height: 5px;
-    }
-
-
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
-    {
-        padding: 32px;
     }
 
 
