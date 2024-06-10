@@ -1,0 +1,31 @@
+@media print,
+(max-width: 1439px)
+{
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 52px 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 200px 0 160px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+}

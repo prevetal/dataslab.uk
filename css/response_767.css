@@ -4,68 +4,219 @@
     /*-------------------
         Global styles
     -------------------*/
-
-
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
+    :root
     {
-        padding: 20px;
+        --font_size: 15px;
+        --font_size_title: 30px;
     }
 
 
-
-    /*-----------------
-        Mob. header
-    -----------------*/
-
-
-
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
+    .cont
+    {
+        padding: 0 24px;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
-
-
-
-    /*------------------
-        Form elements
-    ------------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo img
+    {
+        width: 136px;
+        height: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 160px 0 80px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 70%;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+        padding-bottom: 70%;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .services .service
+    {
+        padding: 28px;
+    }
+
+
+    .services .service .link a
+    {
+        line-height: 22px;
+
+        padding: 8px 24px;
+    }
+
+
+
+    /*----------------
+        Tech stack
+    ----------------*/
+    .tech_stack .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .tech_stack .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .tech_stack .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .data
+    {
+        padding: 32px;
+    }
+
+
+    .benefits .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .country
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .contacts_info .item .location br
+    {
+        display: none;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
 
 
-
-    /*-----------
-        PopUp
-    -----------*/
+    footer .logo img
+    {
+        width: 136px;
+        height: 28px;
+    }
 }

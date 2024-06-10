@@ -4,15 +4,10 @@
     /*-------------------
         Global styles
     -------------------*/
-
-
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
+    :root
     {
-        padding: 24px;
+        --font_size: 16px;
+        --font_size_title: 32px;
     }
 
 
@@ -20,111 +15,143 @@
     /*------------
         Header
     ------------*/
-    header
+    header .menu .btn
     {
-        position: fixed;
-        z-index: 101;
-        top: 0;
-        left: 0;
-
-        width: 310px;
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .3s linear;
-        transform: translateX(-100%);
-
-        background: #fff;
+        font-size: var(--font_size);
     }
-
-    header.show
-    {
-        transform: translateX(0);
-    }
-
-
-    header .scroll
-    {
-        display: flex;
-        overflow: auto;
-        align-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        padding: 20px 0;
-
-        overscroll-behavior-y: contain;
-    }
-
-    header .scroll > *
-    {
-        width: 100%;
-    }
-
-
-
-    /*-----------------
-        Mob. header
-    -----------------*/
-    .mob_header
-    {
-        display: block;
-    }
-
-
-
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
-
-
-
-    /*----------------
-        Block head
-    ----------------*/
-
-
-
-    /*------------------
-        Form elements
-    ------------------*/
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .subscribe
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .image
+    {
+        height: 324px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .input
+    {
+        height: 52px;
+        padding-right: 23px;
+    }
+
+
+    .subscribe .submit_btn
+    {
+        font-size: 16px;
+
+        position: relative;
+        right: 0;
+
+        width: 100%;
+        height: 52px;
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        height: 268px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service
+    {
+        padding: 30px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .data
+    {
+        padding: 40px;
+    }
+
+
+    .benefits .title
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .benefits .items
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Learn more
+    ----------------*/
+    .learn_more .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .learn_more .items > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+    .learn_more .subscribe
+    {
+        margin-top: 48px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
-
-
-
-    /*-----------
-        PopUp
-    -----------*/
+    footer
+    {
+        padding: 48px 0;
+    }
 }

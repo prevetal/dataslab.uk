@@ -3,68 +3,106 @@
     /*-------------------
         Global styles
     -------------------*/
-
-
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
+    :root
     {
-        padding: 16px;
+        --font_size: 15px;
+        --font_size_title: 28px;
     }
 
 
-
-    /*-----------------
-        Mob. header
-    -----------------*/
-
-
-
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
+    .block
+    {
+        margin-bottom: 60px;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
 
 
 
-    /*------------------
-        Form elements
-    ------------------*/
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 126px;
+        height: 26px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 132px 0 60px;
+    }
+
+
+    .first_section .image
+    {
+        border-radius: 20px;
+    }
 
 
 
     /*----------------
-        Typography
+        About info
     ----------------*/
+    .about_info .image
+    {
+        border-radius: 20px;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .items > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .benefits .items .icon + *
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -32px;
+    }
+
+
+    .contacts_info .row > *
+    {
+        margin-bottom: 32px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
-
-
-
-    /*-----------
-        PopUp
-    -----------*/
+    footer .logo img
+    {
+        width: 126px;
+        height: 26px;
+    }
 }

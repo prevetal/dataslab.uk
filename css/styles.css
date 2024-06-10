@@ -268,16 +268,19 @@ header .logo
     color: currentColor;
 }
 
+
 header .logo img
 {
     display: block;
+
+    width: 160px;
+    height: 33px;
 }
 
 
 
 header .menu .btn
 {
-    font-size: 18px;
     font-weight: 700;
 
     position: relative;
@@ -1023,6 +1026,9 @@ footer .cont
 footer .logo img
 {
     display: block;
+
+    width: 160px;
+    height: 33px;
 }
 
 
